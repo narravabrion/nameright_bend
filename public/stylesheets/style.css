@@ -1,0 +1,33 @@
+body {
+  padding: 3rem;
+  font: 0.7rem "Lucida Grande", Helvetica, Arial, sans-serif;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+main{
+  border: 1px solid red;
+  width:60rem
+}
+nav {
+  display:flex;
+  justify-content:space-between;
+  border: 1px solid red;
+}
+nav ul{
+  list-style:none;
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+  
+}
+ul li{
+  margin:0 1rem 0 1rem;
+  
+}
+ul a {
+  color: #000000;
+  text-decoration:none;
+  font: 1rem "Lucida Grande", Helvetica, Arial, sans-serif;
+}
