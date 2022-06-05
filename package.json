@@ -1,9 +1,10 @@
 {
-  "name": "exp",
+  "name": "nameright_bend",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
     "@adminjs/express": "^4.1.3",

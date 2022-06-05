@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  namerightbend:
+    image: namerightbend
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    env_file:
+      - .env
+    ports:
+      - 8080:8080
+
